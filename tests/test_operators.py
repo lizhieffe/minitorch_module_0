@@ -83,7 +83,7 @@ def test_max(a: float) -> None:
     assert max(a, a + 1.0) == a + 1.0
 
 
-@pytest.mark.task0_1
+@pytest.mark.task0_1 
 @given(small_floats)
 def test_eq(a: float) -> None:
     assert eq(a, a) == 1.0
